@@ -42,7 +42,7 @@ In order to calculate the following as shown in Figure 1:
 - The PyBer summary DataFrame is formatted as shown in the example. 
 
 ### Figure 1
-![A ride-sharing summary DataFrame by city type](https://github.com/735713038455163/PyBer_Analysis/blob/main/Resources/A%20ride-sharing%20summary%20DataFrame%20by%20city%20type.PNG)
+![A ride-sharing summary DataFrame by city type](https://github.com/735713038455163/PyBer_Analysis/blob/master/Resources/A%20ride-sharing%20summary%20DataFrame%20by%20city%20type.PNG)
 
 Deliverable 2: A multiple-line chart of total fares for each city type
 =======================================================================
@@ -51,21 +51,21 @@ We will be creating a line chart using the object-oriented interface method, Ann
 In order to calculate the following as shown in Figure 2:
 
 - A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time.
-![groupby](https://github.com/735713038455163/PyBer_Analysis/blob/main/Resources/groupby.PNG)
+![groupby](https://github.com/735713038455163/PyBer_Analysis/blob/master/Resources/groupby.PNG)
 
 - A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare." 
-![pivot](https://github.com/735713038455163/PyBer_Analysis/blob/main/Resources/pivot.PNG)
+![pivot](https://github.com/735713038455163/PyBer_Analysis/blob/master/Resources/pivot.PNG)
 
 - A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-28. 
-![loc](https://github.com/735713038455163/PyBer_Analysis/blob/main/Resources/loc.PNG)
+![loc](https://github.com/735713038455163/PyBer_Analysis/blob/master/Resources/loc.PNG)
 
 - A DataFrame was created using the resample() function in weekly bins and shows the sum of the fares for each week.
-![resample](https://github.com/735713038455163/PyBer_Analysis/blob/main/Resources/resample.PNG)
+![resample](https://github.com/735713038455163/PyBer_Analysis/blob/master/Resources/resample.PNG)
 
 - An annotated chart showing the total fares by city type is created and saved to the "analysis" folder as shown in Figure# 2
 
 ### Figure 2
-![PyBer_fare_summary](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
+![PyBer_fare_summary](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/PyBer_fare_summary.png)
 
 
 ## Analysis and Challenges
@@ -73,16 +73,16 @@ In order to calculate the following as shown in Figure 2:
 
 Three business recommendations to Omar the CEO for addressing any disparities among the city types are as follows:
 
-1. ![Fig1](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig1.png)
+1. ![Fig1](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig1.png)
 Note: Circle size correlates with driver count per city. Urban cities have the highest driver count and total number of rides. Conversely, rural cities with the lowest number of rides and smallest driver count have the highest fares. Omar should consider the number of driver per fare. 
-![Fig4](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig4.png)Omar should consider having Urban Drivers work in the Rural and Suburban areas becuase there are 1.48 drivers to one ride. 
+![Fig4](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig4.png)Omar should consider having Urban Drivers work in the Rural and Suburban areas becuase there are 1.48 drivers to one ride. 
 
-2. ![Fig3](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig3.png) There are less fares going to rural areas but they have higher fares. 
-![Fig2](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig2.png) The desitation may be to the airport as an example. 
+2. ![Fig3](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig3.png) There are less fares going to rural areas but they have higher fares. 
+![Fig2](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig2.png) The desitation may be to the airport as an example. 
 Omar should look into the distance that may be contributing to the larger fare in Rural areas versus the lower fare in Urban cites. It would be interesting to know if the fares included tips or not.
 
 3. Perhaps another consideration is that the company is not making alot of money in Rual area; only 5.3% make up the toal rides in Rural area. Might not be enough to sustain business there. 
-![Fig5](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig5.png)
-![Fig6](https://github.com/735713038455163/PyBer_Analysis/blob/main/Analysis/Fig6.png)
+![Fig5](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig5.png)
+![Fig6](https://github.com/735713038455163/PyBer_Analysis/blob/master/Analysis/Fig6.png)
 
 
